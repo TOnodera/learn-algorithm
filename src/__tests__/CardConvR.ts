@@ -1,7 +1,7 @@
 import CardConvR from '../cardConvR';
 
 describe('CardConvR', () => {
-    it('run()', () => {
+    it('translate()', () => {
         const conv = new CardConvR();
         expect(conv.translate(10, 16)).toBe('A');
         expect(conv.translate(11, 16)).toBe('B');
